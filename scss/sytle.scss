@@ -3,11 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.font-family {
-    font-family: "Squada One", serif;
-    font-family: "Roboto", serif;
-    font-family: "Montserrat", serif;
-}
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -391,6 +386,7 @@ $five-col: #F2F2F2;
         z-index: 1;
     }   
 }
+
 .contact-us-section{
     display: flex;
     padding: 100px 129px;
@@ -459,6 +455,7 @@ $five-col: #F2F2F2;
         }
     }
 }
+
 .footer-section{
     background-color: $first-col;
     display: flex;
@@ -576,6 +573,7 @@ $five-col: #F2F2F2;
     }
     
 }
+
 .request-model-container{
     position: fixed;
     display: none;
@@ -677,6 +675,7 @@ $five-col: #F2F2F2;
         }
     }
 }
+
 @media screen and (max-width: 800px){
     .landing-section {
         display: flex;
@@ -801,6 +800,7 @@ $five-col: #F2F2F2;
     }
     
 }
+
 @media screen and (max-width: 500px) {
     
     .kitchan-section {

@@ -33,7 +33,6 @@ video.addEventListener('click', (e) => {
         play.style.display = 'block';
     }
 })
-
 video_button.addEventListener('click', (e) => {
     if (video.paused) {
         video.play();
@@ -59,7 +58,6 @@ cartbutton.addEventListener('click', () => {
     cartmodel.style.display = 'block';
     document.body.style.overflow = 'hidden';
 })
-
 backtomenu.addEventListener('click', () => {
     overlay.style.display = 'none';
     cartmodel.style.display = 'none';
