@@ -762,6 +762,13 @@ $five-col: #F2F2F2;
         width: 100%;
         .contact-us-content{
             width: 100%;
+            .contact-name-mail{
+                flex-direction: column;
+                gap: 20px;
+                input{
+                    width: 100%;
+                }
+            }
             .contact-btn {
                 width: 100%;
                 font-size: 16px;

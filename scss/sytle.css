@@ -721,6 +721,13 @@
   .contact-us-section .contact-us-content {
     width: 100%;
   }
+  .contact-us-section .contact-us-content .contact-name-mail {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-us-section .contact-us-content .contact-name-mail input {
+    width: 100%;
+  }
   .contact-us-section .contact-us-content .contact-btn {
     width: 100%;
     font-size: 16px;
